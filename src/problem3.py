@@ -189,11 +189,8 @@ def problem3(sequence):
     for k in range(len(sequence)):
         if (is_prime(sequence[k])) == True:
             total = total + 1
-            sequence = sequence - sequence[k]
-        return total
-
-
-
+            sequence[k] = sequence[k] + 3
+    return total
 ###############################################################################
 # Our tests use the following to print error messages in red.
 # Do NOT change it.  You do NOT have to do anything with it.

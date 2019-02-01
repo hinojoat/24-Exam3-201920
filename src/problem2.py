@@ -3,9 +3,9 @@ Exam 3, problem 2.
 
 Authors: Vibha Alangar, Aaron Wilkin, David Mutchler, Dave Fisher, 
          Matt Boutell, Amanda Stouder, their colleagues and 
-         PUT_YOUR_NAME_HERE.  January 2019.
+         Alex Hinojosa.  January 2019.
 
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -84,7 +84,7 @@ def shape(n):
         for j in range(n - k):
             print(k + 1, end='')
         for j in range(n + 1):
-            print(j, end='')
+            print(j + 1, end='')
         print()
 
 # ----------------------------------------------------------------------
