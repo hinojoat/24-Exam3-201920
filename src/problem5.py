@@ -148,7 +148,12 @@ def problem5(seq_of_seq):
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-
+    a = ['']
+    for k in range(len(seq_of_seq)):
+        for j in range(1, k):
+            if seq_of_seq[j] > seq_of_seq[j - 1]:
+                a = a + (seq_of_seq[j])
+        return (a)
 
 ###############################################################################
 # Our tests use the following to print error messages in red.
